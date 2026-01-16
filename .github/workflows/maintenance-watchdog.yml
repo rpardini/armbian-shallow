@@ -1,7 +1,7 @@
 #
 # This action recreate action for building stable images
 #
-name: Watchdog
+name: "Maintenance: Watchdog"
 on:
   schedule:
     - cron: '*/30 * * * *'

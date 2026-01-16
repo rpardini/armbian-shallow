@@ -1,4 +1,4 @@
-name: git-trees-oras
+name: "Maintenance: Generate shallow Linux kernel bundles"
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       contents: write
       actions: write
       packages: write
-    steps:    
+    steps:
 
       - name: Free Github Runner
         uses: descriptinc/free-disk-space@main
